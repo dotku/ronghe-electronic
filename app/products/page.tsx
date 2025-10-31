@@ -298,18 +298,12 @@ export default function ProductsPage() {
               <h3 className="text-xl font-bold mb-4">WeChat</h3>
               <p className="text-gray-400 mb-3">Scan to add: Bennyzhou66</p>
               <div className="bg-white p-3 rounded-lg inline-block">
-                {/* Replace with actual QR code image */}
-                <div className="w-32 h-32 bg-gray-200 flex items-center justify-center text-gray-500 text-xs text-center">
-                  QR Code
-                  <br />
-                  Placeholder
-                  <br />
-                  <span className="text-[10px]">
-                    Add wechat-qr.png to
-                    <br />
-                    /public/images/
-                  </span>
-                </div>
+                <Image
+                  src="/images/wechat-qrcode.png"
+                  alt="WeChat QR Code"
+                  width={100}
+                  height={100}
+                />
               </div>
             </div>
           </div>

@@ -88,9 +88,7 @@ export default function ContactPage() {
                       <h3 className="text-xl font-bold mb-2 text-gray-800">
                         Email
                       </h3>
-                      <p className="text-gray-600 mb-1">
-                        For sales inquiries:
-                      </p>
+                      <p className="text-gray-600 mb-1">For sales inquiries:</p>
                       <a
                         href="mailto:sales33@rong-he.cn"
                         className="text-blue-600 hover:text-blue-700 font-semibold"
@@ -146,9 +144,7 @@ export default function ContactPage() {
                         WeChat
                       </h3>
                       <p className="text-gray-600 mb-2">Add us on WeChat:</p>
-                      <p className="text-blue-600 font-semibold">
-                        Bennyzhou66
-                      </p>
+                      <p className="text-blue-600 font-semibold">Bennyzhou66</p>
                     </div>
                   </div>
                 </div>
@@ -270,9 +266,7 @@ export default function ContactPage() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-6xl mx-auto">
             <div className="text-center">
               <div className="text-4xl mb-4">🏭</div>
-              <h3 className="text-xl font-bold mb-2 text-gray-800">
-                17 Years
-              </h3>
+              <h3 className="text-xl font-bold mb-2 text-gray-800">17 Years</h3>
               <p className="text-gray-600">
                 Of manufacturing excellence since 2009
               </p>
@@ -329,17 +323,12 @@ export default function ContactPage() {
               <h3 className="text-xl font-bold mb-4">WeChat</h3>
               <p className="text-gray-400 mb-3">Scan to add: Bennyzhou66</p>
               <div className="bg-white p-3 rounded-lg inline-block">
-                <div className="w-32 h-32 bg-gray-200 flex items-center justify-center text-gray-500 text-xs text-center">
-                  QR Code
-                  <br />
-                  Placeholder
-                  <br />
-                  <span className="text-[10px]">
-                    Add wechat-qr.png to
-                    <br />
-                    /public/images/
-                  </span>
-                </div>
+                <Image
+                  src="/images/wechat-qrcode.png"
+                  alt="WeChat QR Code"
+                  width={100}
+                  height={100}
+                />
               </div>
             </div>
           </div>
