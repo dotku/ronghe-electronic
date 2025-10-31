@@ -450,21 +450,24 @@ export const products: Product[] = [
     name: 'Magnetic Phone Folding Holder',
     category: 'wireless-chargers',
     material: 'Zinc',
-    function: 'Phone Bracket'
+    function: 'Phone Bracket',
+    maxPower: 'N/A'
   },
   {
     id: 'HB-90B',
     name: 'Magnetic Phone Folding Holder',
     category: 'wireless-chargers',
     material: 'Zinc + ABS + PC',
-    function: 'Phone Bracket'
+    function: 'Phone Bracket',
+    maxPower: 'N/A'
   },
   {
     id: 'HB-90C',
     name: 'Magnetic Phone Folding Holder',
     category: 'wireless-chargers',
     material: 'Zinc + ABS + PC',
-    function: 'Phone Bracket'
+    function: 'Phone Bracket',
+    maxPower: 'N/A'
   },
 
   // Wall Chargers
